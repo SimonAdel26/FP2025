@@ -91,10 +91,10 @@ int[] InitArray(int n)
 // a[i] - a[j], 0 <= i < j < n
 // Exemplu: 0 5 9 8 1 4 6 3 2 - rezultatul este 8 = 9 - 1
 
-int[] a = InitRandomArray(1000000, 1000);
-int result = Solve(a);
-//PrintArray(a);
-Console.WriteLine(result);
+//int[] a = InitRandomArray(1000000, 1000);
+//int result = Solve(a);
+////PrintArray(a);
+//Console.WriteLine(result);
 
 
 // O(n^2)
@@ -112,3 +112,20 @@ int Solve(int[] a)
 
 
 // 
+int i = 20;
+int[] v = {0, 1, 2, 3, 4};
+if(i < v.Length && v[i] > 0)
+    Console.WriteLine("OK");
+else 
+    Console.WriteLine("not OK");
+
+
+if (v[i] > 0 && i < v.Length)
+    Console.WriteLine("OK");
+else
+    Console.WriteLine("not OK");
+
+
+
+
+ 
